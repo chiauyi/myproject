@@ -73,7 +73,7 @@ document.querySelector('.roll').addEventListener('click',function() {
 
       document.querySelector('.winner2').style = 'display: block';
       document.getElementById('player2-current-score').style = 'margin-top: 0px';
-
+      isPlayingGame = false;
 
     }
     else{
